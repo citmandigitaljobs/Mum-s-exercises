@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Akatab" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    body {
+      font-family: 'Akatab';
+      font-size: 22px;
+    }
+  </style>
+  <title>Movement for Mum</title>
+  <!--STYLE.CSS FILE LINK HERE -->
+  <link rel="stylesheet" href="./style.css" />
+  <!-- TRY JS FILE HERE BASED ON STACK OVERFLOW https://stackoverflow.com/questions/68424003/modal-box-opens-on-codepen-but-not-on-localhost -->
+  <!-- INCLUDE defer SO DIRECT BROWSER THAT THE SCRIPT IS MEANT TO BE EXECUTED AFTER THE DOCUMENT HAS BEEN PARSED-->
+  <script src="./main.js" defer></script>
+</head>
+
+<body>
+
+  <main>
+    <section class="yoga-ideas">
+      <div class="page-title">
+        <h1>Gentle yoga for Mum</h1>
+      </div>
+      <!--   </section> -->
+
+      <!--   START YOGA CAROUSEL -->
+      <section class="yoga">
+        <div class="poem">
+          <h5> As you get older,<br>
+            Don't let that stiff shoulder<br>
+            Cause you discomfort or pain.<br>
+            If you do yoga this way<br>
+            You'll build core strength each day<br>
+            And will soon be as right as rain!</h5>
+
+          <!-- ---------------- -->
+          <section class="carousel">
+            <div class="yoga-video">
+              <div class="yoga-title">
+                <h2>Core strengthening</h2>
+              </div>
+              <div class="yoga-exercise-link">
+                <div class="image-landscape">
+                  <a href="https://youtu.be/cqvG7Tm9yok" target="_blank">
+                    <img class="yoga-image" src="https://i.imgur.com/5QoWHqN.jpeg" alt="pink orchid core landscape">
+                  </a>
+                  <h3>10 minutes</h3>
+                </div>
+                <div class="image-portrait">
+                  <a href="https://youtu.be/cqvG7Tm9yok" target="_blank">
+                    <img class="yoga-image" src="https://i.imgur.com/K8xpW2a.jpeg" alt="pink orchid core portrait">
+                  </a>
+                  <h3>10 minutes</h3>
+                </div>
+                <h4>(SilverSneakers)</h4>
+              </div>
+            </div>
+          </section>
+          <!-- ---------------- -->
+              <!-- ---------------- -->
+          <section class="carousel">
+            <div class="yoga-video">
+              <div class="yoga-title">
+                <h2>Neck and shoulder</h2>
+              </div>
+              <div class="yoga-exercise-link">
+                <div class="image-landscape">
+                 <a href="https://youtu.be/k7LRbIjHm8Q" target="_blank">
+                     <img class="yoga-image" src="https://i.imgur.com/uvyfzXg.jpeg" alt="blue lily neck exercises landscape">
+                  </a>
+                  <h3>10 minutes</h3>
+                </div>
+                <div class="image-portrait">
+                 <a href="https://youtu.be/k7LRbIjHm8Q" target="_blank">
+                      <img class="yoga-image" src="https://i.imgur.com/qjqbloz.jpeg" alt="blue lily neck exercises landscape">
+                  </a>
+                  <h3>10 minutes</h3>
+                </div>
+               <h4>(Yoga tips with Stephanie)</h4>
+              </div>
+            </div>
+          </section>
+          <!-- ---------------- -->
+                         
+              
+          <!--         <section class="carousel">
+          <div class="yoga-video">
+            <div class="yoga-title">
+              <h2>Neck and shoulder</h2>
+            </div>
+            <div class="yoga-exercise-link">
+              <img class="yoga-image" src="https://i.imgur.com/uvyfzXg.jpeg" alt="blue lily neck exercises">
+              <a href="https://youtu.be/k7LRbIjHm8Q" target="_blank">
+                <h3>10 minutes</h3>
+              </a>
+              <h4>(Yoga tips with Stephanie)</h4>
+            </div>
+          </div>
+        </section> -->
+          <!-- ---------------- -->
+        </div>
+      </section>
+      <!-- ---------------- -->
+      <div class="transition-arrow-dot-yoga">
+        <div class="arrows-yoga">
+          <a class="prev-yoga" onclick="plusSlidesYoga(-1)">&#10094;</a>
+          <br>
+
+          <!-- The dots/circles -->
+          <div class="dots-yoga">
+            <div style="text-align:center">
+              <span class="dot-yoga" onclick="currentSlideYoga(1)"></span>
+              <span class="dot-yoga" onclick="currentSlideYoga(2)"></span>
+              <!--               <span class="dot-yoga" onclick="currentSlideYoga(3)"></span> -->
+              <!--             <span class="dot-yoga" onclick="currentSlideYoga(4)"></span> -->
+            </div>
+          </div>
+          <a class="next-yoga" onclick="plusSlidesYoga(1)">&#10095;</a>
+        </div>
+      </div>
+      <!-- Next and previous buttons -->
+
+    </section>
+
+    <!--   END YOGA CAROUSEL -->
+  </main>
+</body>
+
+<footer class="footer">
+  <p>Website created January 2026 by a daughter who is inspired every day by her mother.</p>
+</footer>
+
+</html>
