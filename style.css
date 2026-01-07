@@ -1,6 +1,6 @@
 h1 {
   color: #613864;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   text-decoration-color: #613864;
   text-decoration-line: underline;
@@ -11,13 +11,13 @@ h1 {
 
 h2 {
   color: #fe4e6e;
-  font-size: 45px;
+  font-size: 35px;
   font-weight: bold;
 }
 
 h3 {
   color: grey;
-  font-size: 25px;
+  font-size: 22px;
   text-decoration: none; /* Removes underline */
   /*       font-weight: bold; */
 }
@@ -30,7 +30,7 @@ h4 {
 
 h5 {
   color: #ff91a4;
-  font-size: 20px;
+  font-size: 22px;
   /*       font-weight: bold; */
 }
 
@@ -72,20 +72,20 @@ p {
     justify-items: center; /* Horizontal centering */
   }
 
-  .yoga {
+   .yoga {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
     width: 450px;
-    grid-gap: 20px;
-    padding: 15px;
-    /*     border: 5px solid purple; */
+padding-bottom: 10px;    
+/*         border: 5px solid purple; */
   }
 
   .poem {
     display: grid;
     align-content: center;
     text-align: center;
+/*             border: 5px solid red; */
   }
 
   .carousel {
@@ -121,16 +121,12 @@ p {
   .yoga-title {
     display: flex;
     flex-direction: column;
-    /*   width: auto; */
     text-align: center;
     justify-content: center;
     align-items: top;
-    font-size: 22px;
     width: auto;
     background-color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-    /*   border: 5px solid pink; */
+/*       border: 5px solid pink; */
   }
 
   .image-landscape {
@@ -139,7 +135,7 @@ p {
 
   .yoga-image {
     width: auto;
-    max-height: 350px;
+    max-height: 300px;
     border-radius: 20px 20px 20px 20px;
 /*     border-collapse: collapse; */
 /*     overflow: hidden; */
@@ -256,14 +252,13 @@ p {
     justify-items: center; /* Horizontal centering */
   }
 
-  .yoga {
+   .yoga {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
     width: 450px;
-    grid-gap: 20px;
-    padding: 15px;
-    /*     border: 5px solid purple; */
+padding-bottom: 10px;    
+/*         border: 5px solid purple; */
   }
 
   .poem {
@@ -305,16 +300,12 @@ p {
   .yoga-title {
     display: flex;
     flex-direction: column;
-    /*   width: auto; */
     text-align: center;
     justify-content: center;
     align-items: top;
-    font-size: 22px;
     width: auto;
     background-color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-    /*   border: 5px solid pink; */
+/*       border: 5px solid pink; */
   }
 
   .image-portrait {
