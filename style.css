@@ -29,7 +29,7 @@ h4 {
 }
 
 h5 {
-  color: #fe9aac;
+  color: #ff91a4;
   font-size: 20px;
   /*       font-weight: bold; */
 }
@@ -68,6 +68,7 @@ a:active {
     grid-template-columns: repeat(1, 1fr);
     align-items: center; /* Vertical centering */
     justify-items: center; /* Horizontal centering */
+   max-height: 100vh; /* ensures that the element fills the height of the browser window, regardless of its position in the DOM tree */
   }
 
   .yoga {
@@ -254,6 +255,7 @@ a:active {
     grid-template-columns: repeat(1, 1fr);
     align-items: center; /* Vertical centering */
     justify-items: center; /* Horizontal centering */
+            max-height: 100vh; /* ensures that the element fills the height of the browser window, regardless of its position in the DOM tree */
   }
 
   .yoga {
