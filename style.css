@@ -61,7 +61,8 @@ a:active {
     );
     color: #f9f9f9;
     justify-content: center;
-         max-height: 100%; /* ensures that the element fills the height of the browser window, regardless of its position in the DOM tree */
+    /* ensures that the element fills the height of the browser window, regardless of its position in the DOM tree */
+    /*          max-height: 100%;  */
   }
 
   .yoga-ideas {
@@ -248,7 +249,8 @@ a:active {
     );
     color: #f9f9f9;
     justify-content: center;
-             max-height: 100%; /* ensures that the element fills the height of the browser window, regardless of its position in the DOM tree */
+                /* ensures that the element fills the height of the browser window, regardless of its position in the DOM tree */
+    /*          max-height: 100%;  */
   }
 
   .yoga-ideas {
