@@ -64,7 +64,26 @@ p {
     /* ensures that the element fills the height of the browser window, regardless of its position in the DOM tree */
     /*          max-height: 100%;  */
   }
-
+  
+h2 {
+  color: #fe4e6e;
+  font-size: 30px;
+  font-weight: bold;
+}
+  
+  h3 {
+  color: grey;
+  font-size: 18px;
+  text-decoration: none; /* Removes underline */
+  /*       font-weight: bold; */
+}
+  
+  h5 {
+  color: #ff91a4;
+  font-size: 16px;
+  /*       font-weight: bold; */
+}
+  
   .yoga-ideas {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
