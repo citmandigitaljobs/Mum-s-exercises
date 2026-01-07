@@ -1,0 +1,420 @@
+h1 {
+  color: #613864;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration-color: #613864;
+  text-decoration-line: underline;
+  text-underline-offset: 10px;
+  /*   width: 450px; */
+  /*     border: 10px solid grey; */
+}
+
+h2 {
+  color: #fe4e6e;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+h3 {
+  color: grey;
+  font-size: 25px;
+  text-decoration: none; /* Removes underline */
+  /*       font-weight: bold; */
+}
+
+h4 {
+  color: grey;
+  font-size: 15px;
+  /*       font-weight: bold; */
+}
+
+h5 {
+  color: #fe9aac;
+  font-size: 20px;
+  /*       font-weight: bold; */
+}
+
+/* Remove underline from all link states */
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+/* p {
+  font-family: "Nunito Sans";
+  font-size: 18px;
+} */
+
+/* MOBILE RESPONSIVENESS TABLET PORTRAIT START */
+/* @media screen and (min-width: 481px) and (max-width: 768px) { */
+@media screen and (max-width: 768px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    background: radial-gradient(
+      circle at center,
+      rgba(98, 100, 72, 0) 0%,
+      rgba(298, 100, 72, 0.3) 70%
+    );
+    color: #f9f9f9;
+    justify-content: center;
+  }
+
+  .yoga-ideas {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center; /* Vertical centering */
+    justify-items: center; /* Horizontal centering */
+  }
+
+  .yoga {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    width: 450px;
+    grid-gap: 20px;
+    padding: 15px;
+    /*     border: 5px solid purple; */
+  }
+
+  .poem {
+    display: grid;
+    align-content: center;
+    text-align: center;
+  }
+
+  .carousel {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    width: 350;
+    background-color: white;
+    /*   border: 10px solid blue; */
+  }
+
+  .yoga-video {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    width: auto;
+    text-align: center;
+    /*   justify-content: space-around; */
+    justify-content: center;
+    /*   align-items: top; */
+    font-size: 22px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*   border: 5px solid red; */
+  }
+
+  .yoga-exercise-link {
+    /*   width: 500px; */
+    margin: auto;
+    /*   border: 5px solid orange; */
+  }
+
+  .yoga-title {
+    display: flex;
+    flex-direction: column;
+    /*   width: auto; */
+    text-align: center;
+    justify-content: center;
+    align-items: top;
+    font-size: 22px;
+    width: auto;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*   border: 5px solid pink; */
+  }
+
+  .image-landscape {
+    display: none;
+  }
+
+  .yoga-image {
+    width: auto;
+    max-height: 350px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px 20px 20px 20px;
+    border-collapse: collapse;
+    overflow: hidden;
+    padding: 10px;
+    object-position: center;
+    align-items: center;
+    text-align: center;
+    text-wrap: wrap;
+    justify-content: center;
+    /*   border: 5px solid brown; */
+  }
+
+  .yoga-link {
+    display: grid;
+    grid-template-columns: 1;
+    margin-top: 15px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 10px solid blue;
+  }
+
+  .transition-arrow-dot-yoga {
+    display: flex;
+    justify-content: space-evenly;
+    width: max;
+    /*   border: 5px solid yellow; */
+  }
+
+  /* Hide the images by default */
+  .mySlidesYoga {
+    display: none;
+  }
+
+  /* Next & previous buttons */
+  .prev-yoga,
+  .next-yoga {
+    cursor: pointer;
+    position: relative;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #f59794;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    /*   border-radius: 0 3px 3px 0; */
+    border-radius: 50%;
+    user-select: none;
+    border: 3px solid;
+  }
+
+  .arrows-yoga {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev-month:hover,
+  .next-month:hover {
+    color: hotpink;
+    font-size: 30px;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot-yoga {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active,
+  .dot-yoga:hover {
+    background-color: #f59794;
+  }
+
+  .footer {
+    font-size: 14px;
+    background-color: #dcdcdc;
+    border-top: black;
+    padding: 10px;
+  }
+}
+/* MOBILE RESPONSIVENESS TABLET PORTRAIT END */
+
+/* MOBILE RESPONSIVENESS TABLET LANDSCAPE START */
+/* @media screen and (min-width: 769px) and (max-width: 990px) { */
+@media screen and (min-width: 769px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    background: radial-gradient(
+      circle at center,
+      rgba(98, 100, 72, 0) 0%,
+      rgba(298, 100, 72, 0.3) 70%
+    );
+    color: #f9f9f9;
+    justify-content: center;
+  }
+
+  .yoga-ideas {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center; /* Vertical centering */
+    justify-items: center; /* Horizontal centering */
+  }
+
+  .yoga {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    width: 450px;
+    grid-gap: 20px;
+    padding: 15px;
+    /*     border: 5px solid purple; */
+  }
+
+  .poem {
+    display: grid;
+    align-content: center;
+    text-align: center;
+  }
+
+  .carousel {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    width: 350;
+    background-color: white;
+    /*   border: 10px solid blue; */
+  }
+
+  .yoga-video {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    width: auto;
+    text-align: center;
+    /*   justify-content: space-around; */
+    justify-content: center;
+    /*   align-items: top; */
+    font-size: 22px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*   border: 5px solid red; */
+  }
+
+  .yoga-exercise-link {
+    /*   width: 500px; */
+    margin: auto;
+    /*   border: 5px solid orange; */
+  }
+
+  .yoga-title {
+    display: flex;
+    flex-direction: column;
+    /*   width: auto; */
+    text-align: center;
+    justify-content: center;
+    align-items: top;
+    font-size: 22px;
+    width: auto;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*   border: 5px solid pink; */
+  }
+
+  .image-portrait {
+    display: none;
+  }
+
+  .yoga-image {
+    width: 350px;
+    max-height: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px 20px 20px 20px;
+    border-collapse: collapse;
+    overflow: hidden;
+    padding: 10px;
+    object-position: center;
+    align-items: center;
+    text-align: center;
+    text-wrap: wrap;
+    justify-content: center;
+    /*   border: 5px solid brown; */
+  }
+
+  .yoga-link {
+    display: grid;
+    grid-template-columns: 1;
+    margin-top: 15px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 10px solid blue;
+  }
+
+  .transition-arrow-dot-yoga {
+    display: flex;
+    justify-content: space-evenly;
+    width: max;
+    /*   border: 5px solid yellow; */
+  }
+
+  /* Hide the images by default */
+  .mySlidesYoga {
+    display: none;
+  }
+
+  /* Next & previous buttons */
+  .prev-yoga,
+  .next-yoga {
+    cursor: pointer;
+    position: relative;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #f59794;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    /*   border-radius: 0 3px 3px 0; */
+    border-radius: 50%;
+    user-select: none;
+    border: 3px solid;
+  }
+
+  .arrows-yoga {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev-month:hover,
+  .next-month:hover {
+    color: hotpink;
+    font-size: 30px;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot-yoga {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active,
+  .dot-yoga:hover {
+    background-color: #f59794;
+  }
+
+  .footer {
+    font-size: 14px;
+    background-color: #dcdcdc;
+    border-top: black;
+    padding: 10px;
+  }
+}
+/* MOBILE RESPONSIVENESS TABLET LANDSCAPE END */
