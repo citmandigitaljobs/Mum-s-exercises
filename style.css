@@ -42,10 +42,10 @@ a:active {
   text-decoration: none;
 }
 
-/* p {
-  font-family: "Nunito Sans";
-  font-size: 18px;
-} */
+p {
+   color:  grey;
+  font-size: 14px;
+}
 
 /* MOBILE RESPONSIVENESS TABLET PORTRAIT START */
 /* @media screen and (min-width: 481px) and (max-width: 768px) { */
@@ -92,7 +92,6 @@ a:active {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
-    width: 350;
     background-color: white;
 /*     border: 10px solid blue; */
   }
@@ -129,8 +128,8 @@ a:active {
     font-size: 22px;
     width: auto;
     background-color: white;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     /*   border: 5px solid pink; */
   }
 
@@ -141,30 +140,27 @@ a:active {
   .yoga-image {
     width: auto;
     max-height: 350px;
-    margin-top: 15px;
-    margin-bottom: 10px;
     border-radius: 20px 20px 20px 20px;
-    border-collapse: collapse;
-    overflow: hidden;
-    padding: 10px;
+/*     border-collapse: collapse; */
+/*     overflow: hidden; */
     object-position: center;
     align-items: center;
     text-align: center;
     text-wrap: wrap;
     justify-content: center;
-    /*   border: 5px solid brown; */
+/*       border: 5px solid brown; */
   }
 
-  .yoga-link {
+/*   .yoga-link {
     display: grid;
     grid-template-columns: 1;
-    margin-top: 15px;
-    padding: 10px;
+    margin-top: 5px;
     align-items: center;
     text-align: center;
     justify-content: center;
     border: 10px solid blue;
-  }
+  } */
+
 
   .transition-arrow-dot-yoga {
     display: flex;
@@ -280,9 +276,8 @@ a:active {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
-    width: 350;
     background-color: white;
-    /*   border: 10px solid blue; */
+/*     border: 10px solid blue; */
   }
 
   .yoga-video {
@@ -317,8 +312,8 @@ a:active {
     font-size: 22px;
     width: auto;
     background-color: white;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     /*   border: 5px solid pink; */
   }
 
@@ -326,33 +321,29 @@ a:active {
     display: none;
   }
 
-  .yoga-image {
-    width: 350px;
+ .yoga-image {
+    width: 300px;
     max-height: auto;
-    margin-top: 15px;
-    margin-bottom: 10px;
     border-radius: 20px 20px 20px 20px;
-    border-collapse: collapse;
-    overflow: hidden;
-    padding: 10px;
+/*     border-collapse: collapse; */
+/*     overflow: hidden; */
     object-position: center;
     align-items: center;
     text-align: center;
     text-wrap: wrap;
     justify-content: center;
-    /*   border: 5px solid brown; */
+/*       border: 5px solid brown; */
   }
 
-  .yoga-link {
+/*   .yoga-link {
     display: grid;
     grid-template-columns: 1;
-    margin-top: 15px;
-    padding: 10px;
+    margin-top: 5px;
     align-items: center;
     text-align: center;
     justify-content: center;
     border: 10px solid blue;
-  }
+  } */
 
   .transition-arrow-dot-yoga {
     display: flex;
