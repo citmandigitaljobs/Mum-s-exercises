@@ -189,10 +189,10 @@ p {
   .modal {
     display: none; /* Hidden by default 
   /* Stay in place */
-    position: absolute;
+    position: absolute;    
     background-color: white;
     z-index: 1; /* Sit on top */
-    top: 100%;
+    top: 75%;
     left: 50%;
     /* Perfect centering */
     transform: translate(-50%, -50%); 
@@ -472,6 +472,12 @@ p {
     position: absolute;
     background-color: white;
     z-index: 1; /* Sit on top */
+  
+      top: 50%;
+    left: 75%;
+    /* Perfect centering */
+    transform: translate(-50%, -50%); 
+    
     width: 250px;
 /*     width: max; */
     height: auto;
