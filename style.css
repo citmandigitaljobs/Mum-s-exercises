@@ -194,7 +194,8 @@ p {
     z-index: 1; /* Sit on top */
     top: 100%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Perfect centering */
+    /* Perfect centering */
+    transform: translate(-50%, -50%); 
     width: 250px;
     height: auto;
     /* Enable scroll if needed */
@@ -453,24 +454,26 @@ p {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
-    margin-top: 20px;
+    font-size: 16px;
+    margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid #888;
     border-radius: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     /*            border: 5px solid green; */
   }
 
   /* The Modal (background) */
-  .modal {
+.modal {
     display: none; /* Hidden by default 
   /* Stay in place */
+/*     position: absolute; */
     position: absolute;
     background-color: white;
     z-index: 1; /* Sit on top */
-    width: 300px;
+    width: 250px;
+/*     width: max; */
     height: auto;
     /* Enable scroll if needed */
     /*   overflow: auto;  */
@@ -478,7 +481,7 @@ p {
     border-color: #fe4e6e;
     /*                border: 5px solid purple; */
   }
-
+  
   /* Modal Content/Box START */
   .modal-content {
     position: relative;
@@ -486,7 +489,6 @@ p {
     /* Could be more or less, depending on screen size */
     margin: 5px;
     /* Could be more or less, depending on screen size */
-    width: max;
     /*   border: 2px dotted; */
     /*   border-color: #5c81a1; */
   }
