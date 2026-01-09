@@ -29,7 +29,7 @@ h4 {
 }
 
 h5 {
-  color: #ff91a4;
+  color: #fe3559;
   font-size: 17px;
   /*       font-weight: bold; */
 }
@@ -58,7 +58,7 @@ p {
     background: radial-gradient(
       circle at center,
       rgba(98, 100, 72, 0) 0%,
-      rgba(298, 100, 72, 0.3) 70%
+      rgba(298, 100, 72, 0.3) 95%
     );
     color: #f9f9f9;
     justify-content: center;
@@ -80,7 +80,7 @@ p {
   }
 
   h5 {
-    color: #ff91a4;
+    color: #fe3559;
     font-size: 16px;
     /*       font-weight: bold; */
   }
@@ -350,7 +350,7 @@ p {
     background: radial-gradient(
       circle at center,
       rgba(98, 100, 72, 0) 0%,
-      rgba(298, 100, 72, 0.3) 90%
+      rgba(298, 100, 72, 0.3) 95%
     );
     color: #f9f9f9;
     justify-content: center;
